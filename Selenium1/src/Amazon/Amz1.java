@@ -26,12 +26,7 @@ public class Amz1 {
       WebElement Password = driver.findElement(By.xpath("//input[@id='ap_password']"));
       Password.sendKeys("Shubham43");
       System.out.println("Hello");
-		 System.out.println("Hello");
-		 System.out.println("Hello");
-		 System.out.println("Hello");
-		 System.out.println("Hello");
-		 System.out.println("Hello");
-		 System.out.println("Hello");
+		
       WebElement SignInSubmit = driver.findElement(By.xpath("//input[@id='signInSubmit']"));
       SignInSubmit.click();
 //       WebElement All = driver.findElement(By.xpath("(//span[text()='All'])[2]"));   
